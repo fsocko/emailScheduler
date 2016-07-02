@@ -2,6 +2,7 @@
     <string name="app_name">SockoEmailScheduler</string>
 
 
+    <string name="emailVal">Email</string>
     <string name="labEmail">Email</string>
     <string name="labDate">Date</string>
     <string name="labBut0">Hallway</string>
