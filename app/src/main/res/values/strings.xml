@@ -23,7 +23,7 @@
 
     <!-- email text-->
 
-    <string name="passed.">pass</string>
+
 
 
     <string name="resHall">Hallway</string>
@@ -32,8 +32,14 @@
     <string name="resB1">Bedroom 1</string>
     <string name="resB2">Bedroom 2</string>
     <string name="resB3">Bedroom 3</string>
-    <string name="noTest">No test was conducted.</string>
-    <string name="emailBody">Dear James, \n </string>
+
+    <string name="passed">: passed.</string>
+    <string name="noTest">: not tested.</string>
+
+
+    <string name="emailStart">Dear James, \n On %1$S the following tests were conducted: </string>
+
+
 
 
 
