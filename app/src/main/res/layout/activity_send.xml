@@ -15,7 +15,7 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/emailInput"
-        android:layout_below="@+id/emailLab"
+        android:layout_below="@+id/labEmail"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
@@ -25,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/emailLab"
+        android:text="@string/labEmail"
+        android:id="@+id/labEmail"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -41,6 +41,20 @@
         android:layout_alignEnd="@+id/emailInput"
         android:layout_marginTop="52dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/labBut0"
+        android:id="@+id/labTog0"
+        android:layout_above="@+id/tog1"
+        android:layout_toLeftOf="@+id/tog0"
+        android:layout_toStartOf="@+id/tog0"
+        android:layout_alignTop="@+id/tog0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,6 +63,19 @@
         android:layout_below="@+id/tog0"
         android:layout_alignRight="@+id/tog0"
         android:layout_alignEnd="@+id/tog0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/labBut1"
+        android:id="@+id/labTog1"
+        android:layout_alignBottom="@+id/tog1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/tog1"
+        android:layout_toStartOf="@+id/tog1"
+        android:layout_below="@+id/tog0" />
 
     <ToggleButton
         android:layout_width="wrap_content"
@@ -59,6 +86,19 @@
         android:layout_alignRight="@+id/tog1"
         android:layout_alignEnd="@+id/tog1" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/labBut2"
+        android:id="@+id/labTog2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/tog2"
+        android:layout_toStartOf="@+id/tog2"
+        android:layout_above="@+id/tog3"
+        android:layout_alignTop="@+id/tog2" />
+
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,6 +107,19 @@
         android:layout_below="@+id/tog2"
         android:layout_alignRight="@+id/tog2"
         android:layout_alignEnd="@+id/tog2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/labBut3"
+        android:id="@+id/labTog3"
+        android:layout_above="@+id/tog4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/tog3"
+        android:layout_toStartOf="@+id/tog3"
+        android:layout_below="@+id/tog2" />
 
     <ToggleButton
         android:layout_width="wrap_content"
@@ -77,6 +130,21 @@
         android:layout_alignRight="@+id/tog3"
         android:layout_alignEnd="@+id/tog3" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/labBut4"
+        android:id="@+id/labTog4"
+        android:layout_above="@+id/tog5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/tog4"
+        android:layout_toStartOf="@+id/tog4"
+        android:layout_alignTop="@+id/tog4" />
+
+
+
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,10 +154,23 @@
         android:layout_alignRight="@+id/tog4"
         android:layout_alignEnd="@+id/tog4" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/labBut5"
+        android:id="@+id/labTog5"
+        android:layout_alignBottom="@+id/tog5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/tog5"
+        android:layout_toStartOf="@+id/tog5"
+        android:layout_below="@+id/tog4" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="@string/sendBut"
         android:id="@+id/butSend"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -100,87 +181,22 @@
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New ToggleButton"
+        android:text="@string/togLock"
         android:id="@+id/togSendLock"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/tog5"
         android:layout_alignEnd="@+id/tog5" />
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/labTog0"
-        android:layout_above="@+id/tog1"
-        android:layout_toLeftOf="@+id/tog0"
-        android:layout_alignTop="@+id/tog0"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/date"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/emailInput"
+        android:layout_alignEnd="@+id/emailInput"
+        android:layout_above="@+id/emailInput" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/labTog1"
-        android:layout_alignBottom="@+id/tog1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/tog1"
-        android:layout_toStartOf="@+id/tog1"
-        android:layout_below="@+id/tog0" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/labTog2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/tog2"
-        android:layout_toStartOf="@+id/tog2"
-        android:layout_above="@+id/tog3"
-        android:layout_alignTop="@+id/tog2" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/labTog3"
-        android:layout_above="@+id/tog4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/tog3"
-        android:layout_toStartOf="@+id/tog3"
-        android:layout_below="@+id/tog2" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/labTog4"
-        android:layout_above="@+id/tog5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/tog4"
-        android:layout_toStartOf="@+id/tog4"
-        android:layout_alignTop="@+id/tog4" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/labTog5"
-        android:layout_alignBottom="@+id/tog5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/tog5"
-        android:layout_toStartOf="@+id/tog5"
-        android:layout_below="@+id/tog4" />
 
 </RelativeLayout>

@@ -3,14 +3,17 @@
 
 
     <string name="labEmail">Email</string>
-    <string name="labBut1">Email</string>
-    <string name="labBut2">Email</string>
-    <string name="labBut3">Email</string>
-    <string name="labBut4">Email</string>
-    <string name="labBut5">Email</string>
-    <string name="labBut6">Email</string>
+    <string name="labBut0">Hallway</string>
+    <string name="labBut1">Kitchen</string>
+    <string name="labBut2">CO Detector</string>
 
-    <string name="labButSend">Email</string>
+    <string name="labBut3">Bedroom 1</string>
+    <string name="labBut4">Bedroom 2</string>
+    <string name="labBut5">Bedroom 3</string>
+
+    <string name="sendBut">SEND</string>
+    <string name="togLock">lock</string>
+    <string name="togUnlock">unlock</string>
 
 
 </resources>
