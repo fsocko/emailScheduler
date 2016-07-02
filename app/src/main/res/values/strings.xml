@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">SockoEmailScheduler</string>
 
+    <!--UI-->
 
-    <string name="emailVal">Email</string>
+    <string name="emailVal">fsocko@gmail.com</string>
     <string name="labEmail">Email</string>
     <string name="labDate">Date</string>
     <string name="labBut0">Hallway</string>
@@ -14,8 +15,28 @@
     <string name="labBut5">Bedroom 3</string>
 
     <string name="sendBut">SEND</string>
+
+    <string name="togTested">tested</string>
+    <string name="togNotTested">no test</string>
     <string name="togLock">lock</string>
     <string name="togUnlock">unlock</string>
+
+    <!-- email text-->
+
+    <string name="passed.">pass</string>
+
+
+    <string name="resHall">Hallway</string>
+    <string name="resKit">Kitchen</string>
+    <string name="resCO">CO Detector</string>
+    <string name="resB1">Bedroom 1</string>
+    <string name="resB2">Bedroom 2</string>
+    <string name="resB3">Bedroom 3</string>
+    <string name="noTest">No test was conducted.</string>
+    <string name="emailBody">Dear James, \n </string>
+
+
+
 
 
 </resources>
