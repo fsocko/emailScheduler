@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/editText"
-        android:layout_below="@+id/textView"
+        android:id="@+id/emailInput"
+        android:layout_below="@+id/emailLab"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
-        android:id="@+id/textView"
+        android:id="@+id/emailLab"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -35,86 +35,86 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
-        android:id="@+id/toggleButton"
-        android:layout_below="@+id/editText"
-        android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText"
+        android:id="@+id/tog0"
+        android:layout_below="@+id/emailInput"
+        android:layout_alignRight="@+id/emailInput"
+        android:layout_alignEnd="@+id/emailInput"
         android:layout_marginTop="52dp" />
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
-        android:id="@+id/toggleButton2"
-        android:layout_below="@+id/toggleButton"
-        android:layout_alignRight="@+id/toggleButton"
-        android:layout_alignEnd="@+id/toggleButton" />
+        android:id="@+id/tog1"
+        android:layout_below="@+id/tog0"
+        android:layout_alignRight="@+id/tog0"
+        android:layout_alignEnd="@+id/tog0" />
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
-        android:id="@+id/toggleButton3"
-        android:layout_below="@+id/toggleButton2"
-        android:layout_alignRight="@+id/toggleButton2"
-        android:layout_alignEnd="@+id/toggleButton2" />
+        android:id="@+id/tog2"
+        android:layout_below="@+id/tog1"
+        android:layout_alignRight="@+id/tog1"
+        android:layout_alignEnd="@+id/tog1" />
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
-        android:id="@+id/toggleButton4"
-        android:layout_below="@+id/toggleButton3"
-        android:layout_alignRight="@+id/toggleButton3"
-        android:layout_alignEnd="@+id/toggleButton3" />
+        android:id="@+id/tog3"
+        android:layout_below="@+id/tog2"
+        android:layout_alignRight="@+id/tog2"
+        android:layout_alignEnd="@+id/tog2" />
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
-        android:id="@+id/toggleButton5"
-        android:layout_below="@+id/toggleButton4"
-        android:layout_alignRight="@+id/toggleButton4"
-        android:layout_alignEnd="@+id/toggleButton4" />
+        android:id="@+id/tog4"
+        android:layout_below="@+id/tog3"
+        android:layout_alignRight="@+id/tog3"
+        android:layout_alignEnd="@+id/tog3" />
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
-        android:id="@+id/toggleButton6"
-        android:layout_below="@+id/toggleButton5"
-        android:layout_alignRight="@+id/toggleButton5"
-        android:layout_alignEnd="@+id/toggleButton5" />
+        android:id="@+id/tog5"
+        android:layout_below="@+id/tog4"
+        android:layout_alignRight="@+id/tog4"
+        android:layout_alignEnd="@+id/tog4" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Button"
-        android:id="@+id/button"
+        android:id="@+id/butSend"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/toggleButton6"
-        android:layout_toStartOf="@+id/toggleButton6" />
+        android:layout_toLeftOf="@+id/tog5"
+        android:layout_toStartOf="@+id/tog5" />
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
-        android:id="@+id/toggleButton7"
+        android:id="@+id/togSendLock"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/toggleButton6"
-        android:layout_alignEnd="@+id/toggleButton6" />
+        android:layout_alignRight="@+id/tog5"
+        android:layout_alignEnd="@+id/tog5" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/textView2"
-        android:layout_above="@+id/toggleButton2"
-        android:layout_toLeftOf="@+id/toggleButton"
-        android:layout_alignTop="@+id/toggleButton"
+        android:id="@+id/labTog0"
+        android:layout_above="@+id/tog1"
+        android:layout_toLeftOf="@+id/tog0"
+        android:layout_alignTop="@+id/tog0"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -123,64 +123,64 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/textView3"
-        android:layout_alignBottom="@+id/toggleButton2"
+        android:id="@+id/labTog1"
+        android:layout_alignBottom="@+id/tog1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/toggleButton2"
-        android:layout_toStartOf="@+id/toggleButton2"
-        android:layout_below="@+id/toggleButton" />
+        android:layout_toLeftOf="@+id/tog1"
+        android:layout_toStartOf="@+id/tog1"
+        android:layout_below="@+id/tog0" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/textView4"
+        android:id="@+id/labTog2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/toggleButton3"
-        android:layout_toStartOf="@+id/toggleButton3"
-        android:layout_above="@+id/toggleButton4"
-        android:layout_alignTop="@+id/toggleButton3" />
+        android:layout_toLeftOf="@+id/tog2"
+        android:layout_toStartOf="@+id/tog2"
+        android:layout_above="@+id/tog3"
+        android:layout_alignTop="@+id/tog2" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/textView5"
-        android:layout_above="@+id/toggleButton5"
+        android:id="@+id/labTog3"
+        android:layout_above="@+id/tog4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/toggleButton4"
-        android:layout_toStartOf="@+id/toggleButton4"
-        android:layout_below="@+id/toggleButton3" />
+        android:layout_toLeftOf="@+id/tog3"
+        android:layout_toStartOf="@+id/tog3"
+        android:layout_below="@+id/tog2" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/textView6"
-        android:layout_above="@+id/toggleButton6"
+        android:id="@+id/labTog4"
+        android:layout_above="@+id/tog5"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/toggleButton5"
-        android:layout_toStartOf="@+id/toggleButton5"
-        android:layout_alignTop="@+id/toggleButton5" />
+        android:layout_toLeftOf="@+id/tog4"
+        android:layout_toStartOf="@+id/tog4"
+        android:layout_alignTop="@+id/tog4" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/textView7"
-        android:layout_alignBottom="@+id/toggleButton6"
+        android:id="@+id/labTog5"
+        android:layout_alignBottom="@+id/tog5"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/toggleButton6"
-        android:layout_toStartOf="@+id/toggleButton6"
-        android:layout_below="@+id/toggleButton5" />
+        android:layout_toLeftOf="@+id/tog5"
+        android:layout_toStartOf="@+id/tog5"
+        android:layout_below="@+id/tog4" />
 
 </RelativeLayout>
