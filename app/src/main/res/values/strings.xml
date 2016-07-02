@@ -3,6 +3,7 @@
 
 
     <string name="labEmail">Email</string>
+    <string name="labDate">Date</string>
     <string name="labBut0">Hallway</string>
     <string name="labBut1">Kitchen</string>
     <string name="labBut2">CO Detector</string>

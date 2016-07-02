@@ -15,11 +15,9 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/emailInput"
-        android:layout_below="@+id/labEmail"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,17 +27,44 @@
         android:id="@+id/labEmail"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/emailInput"
+        android:layout_toStartOf="@+id/emailInput"
+        android:layout_toLeftOf="@+id/emailInput"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/date"
+        android:layout_below="@+id/emailInput"
+        android:layout_alignRight="@+id/emailInput"
+        android:layout_alignEnd="@+id/emailInput" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/labDate"
+        android:id="@+id/labDate"
+        android:layout_alignBottom="@+id/date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/date"
+        android:layout_toStartOf="@+id/date"
+        android:layout_alignTop="@+id/date" />
+
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
         android:id="@+id/tog0"
+        android:layout_marginTop="80dp"
         android:layout_below="@+id/emailInput"
         android:layout_alignRight="@+id/emailInput"
-        android:layout_alignEnd="@+id/emailInput"
-        android:layout_marginTop="52dp" />
+        android:layout_alignEnd="@+id/emailInput" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -187,16 +212,7 @@
         android:layout_alignRight="@+id/tog5"
         android:layout_alignEnd="@+id/tog5" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="date"
-        android:ems="10"
-        android:id="@+id/date"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/emailInput"
-        android:layout_alignEnd="@+id/emailInput"
-        android:layout_above="@+id/emailInput" />
+
 
 
 </RelativeLayout>
