@@ -18,8 +18,8 @@
 
     <string name="togTested">tested</string>
     <string name="togNotTested">no test</string>
-    <string name="togLock">lock</string>
-    <string name="togUnlock">unlock</string>
+    <string name="togLock">locked</string>
+    <string name="togUnlock">unlocked</string>
 
     <!-- email text-->
 
