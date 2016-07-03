@@ -14,7 +14,7 @@
     <string name="labBut4">Bedroom 2</string>
     <string name="labBut5">Bedroom 3</string>
 
-    <string name="sendBut">SEND</string>
+    <string name="sendBut">SEND EMAIL</string>
 
     <string name="togTested">tested</string>
     <string name="togNotTested">no test</string>
@@ -34,7 +34,7 @@
     <string name="tTog5">Bedroom 3: %1$s \n</string>
 
     <string name="passed">passed.</string>
-    <string name="noTest">not tested.</string>
+    <string name="noTest">No alarms were tested. \n</string>
 
 
     <string name="subject">Fire Alarm Test:  %1$s </string>

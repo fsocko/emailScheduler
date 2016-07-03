@@ -225,7 +225,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sendBut"
+        android:text="@string/togLock"
         android:id="@+id/butSend"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
