@@ -26,18 +26,19 @@
 
 
 
-    <string name="resHall">Hallway</string>
-    <string name="resKit">Kitchen</string>
-    <string name="resCO">CO Detector</string>
-    <string name="resB1">Bedroom 1</string>
-    <string name="resB2">Bedroom 2</string>
-    <string name="resB3">Bedroom 3</string>
+    <string name="tTog0">Hallway: %1$s \n</string>
+    <string name="tTog1">Kitchen: %1$s \n</string>
+    <string name="tTog2">CO Detector: %1$s \n</string>
+    <string name="tTog3">Bedroom 1: %1$s \n</string>
+    <string name="tTog4">Bedroom 2: %1$s \n</string>
+    <string name="tTog5">Bedroom 3: %1$s \n</string>
 
     <string name="passed">: passed.</string>
     <string name="noTest">: not tested.</string>
 
 
-    <string name="emailStart">Dear James, \n On %1$S the following tests were conducted: </string>
+    <string name="subject">Fire Alarm Test:  %1$s </string>
+    <string name="emailStart">Dear James, \n On %1$s the following tests were conducted: </string>
 
 
 
