@@ -33,14 +33,14 @@
     <string name="tTog4">Bedroom 2: %1$s \n</string>
     <string name="tTog5">Bedroom 3: %1$s \n</string>
 
-    <string name="passed">: passed.</string>
-    <string name="noTest">: not tested.</string>
+    <string name="passed">passed.</string>
+    <string name="noTest">not tested.</string>
 
 
     <string name="subject">Fire Alarm Test:  %1$s </string>
-    <string name="emailStart">Dear James, \n On %1$s the following tests were conducted: </string>
-
-
+    <string name="emailStart">Dear James, \nOn %1$s the following tests were conducted:\n\n </string>
+    <string name="emailSig">\nYours sincerely, %1$s </string>
+    <string name="emailSig2">\nYours sincerely,\n Filip Socko </string>
 
 
 
