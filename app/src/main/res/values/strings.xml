@@ -6,7 +6,8 @@
     <string name="settings">Settings</string>
     <string name="about">About</string>
 
-    <string name="emailVal">james.morrison61@hotmail.co.uk</string>
+    <!--<string name="emailVal">james.morrison61@hotmail.co.uk</string>-->
+    <string name="emailVal">example@example.com</string>
     <string name="labEmail">Email</string>
     <string name="labDate">Date</string>
     <string name="labBut0">Hallway</string>
