@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">Socko\nFire Alarm\nEmail</string>
+    <string name="app_name">SockoEmail</string>
 
     <!--UI-->
+
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
 
     <string name="emailVal">james.morrison61@hotmail.co.uk</string>
     <string name="labEmail">Email</string>
