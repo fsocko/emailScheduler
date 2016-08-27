@@ -28,8 +28,6 @@
     <!-- email text-->
 
 
-
-
     <string name="tTog0">Hallway Fire Alarm: %1$s \n</string>
     <string name="tTog1">Kitchen Heat Detector: %1$s \n</string>
     <string name="tTog2">Kitchen CO Detector: %1$s \n</string>
@@ -45,9 +43,7 @@
     <string name="emailStart">Dear James,\n\nOn %1$s the following tests were conducted:\n\n </string>
     <string name="emailSig">\nYours sincerely, %1$s </string>
     <string name="emailSig2">\nYours sincerely,\n\n Filip Socko </string>
-
-
-
+    <string name="title_activity_settings">Settings</string>
 
 
 </resources>
