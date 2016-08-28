@@ -246,7 +246,17 @@
         android:textOn="@string/togUnlock"
 	 />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/settings"
+        android:layout_above="@+id/labTog0"
+        android:layout_toRightOf="@+id/labDate"
+        android:layout_toEndOf="@+id/labDate"
+        android:onClick="openSettings"
 
+        />
 
 
 </RelativeLayout>
